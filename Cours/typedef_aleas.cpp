@@ -9,7 +9,8 @@ int main() {
     using std::cout ;
     using str = std::string ;
     str name = "aziz";
-
     cout << name << std::endl;
+    int x = 10;
+    cout<< (x/=2);
     return 0;
 }
