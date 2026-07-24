@@ -51,7 +51,7 @@ void trie(int T[],int n) {
             if (T[i]>T[i+1]) {
                 int tmp = T[i];
                 T[i] = T[i+1];
-                T[i+1] = tmp;
+                T[i+1] = tmp;     /*#include <utility> // or <algorithm>|||std::swap(T[i], T[i+1]);*/
                 ok = true;
             }
         }n=n-1;
@@ -61,3 +61,10 @@ void trie(int T[],int n) {
 /*void chng(int* p){
     *p = 100 ;
 }*/
+/*
+
+#include <algorithm>
+
+std::sort(T, T + n); // Faster than any manual bubble sort!
+
+*/
