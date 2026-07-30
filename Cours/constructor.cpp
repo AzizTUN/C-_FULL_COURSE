@@ -23,6 +23,26 @@ int main () {
     int size;
     std::cout <<"size ?: ";
     std::cin>>size;
+int xlength;
+    std::cout << "xlength : \n";
+    std::cin>>xlength ;
+
+    Student *eleve1 = nullptr ;
+    eleve1 =new Student[xlength] ;
+    delete eleve1;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     Student *eleve = nullptr ;
     eleve = new Student[size] ;
